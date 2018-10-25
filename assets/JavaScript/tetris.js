@@ -39,13 +39,13 @@ function drawBoard() {
 drawBoard()
 
 const PIECES = [
-    [Z, "#e5222a"],
-    [L, "#066db2"],
-    [S, "#fff100"],
-    [O, "#a8dadc"],
-    [I, "#aaabbc"],
-    [J, "#a0ddff"],
-    [T, "#413c58"],
+    [Z, "#0bd3d3"],
+    [L, "#f890e7"],
+    [S, "#d0d0d0"],
+    [O, "#130f13"],
+    [I, "#e30050"],
+    [J, "#35a4c0"],
+    [T, "#37bbec"],
 ];
 
 //Generate a random piece

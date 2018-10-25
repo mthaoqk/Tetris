@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,37 @@
     <title>Tetris</title>
     <link rel="icon" href="assets/Images/Tetris.png">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/CSS/CSS.css" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+
 </head>
+
 <body>
-    <canvas id="tetris" width="200" height="400" style="border:6px solid black"></canvas>
-    <div>
-        Score : <div id="score">0</div>
+    <header>
+        <h1>Tetris</h1>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <canvas id="tetris" width="200" height="400"></canvas>
+            <br>
+            Score : <div id="score">0</div>
+
+        </div>
+
     </div>
+
+        <img id="vcNights" src="./assets/Images/ViceCityNight.png" />
+
+
+    <footer>
+        <p>Contact</p>
+    </footer>
+
+
 
 
     <script src="assets/JavaScript/tetrominoes.js"></script>
     <script src="assets/JavaScript/tetris.js"></script>
 </body>
+
 </html>

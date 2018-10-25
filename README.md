@@ -1,6 +1,6 @@
 # Tetris
 
-Things still neede to be done:
+Things still needed to be done:
 
 *Update UI
 *Add Sound
