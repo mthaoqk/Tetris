@@ -8,12 +8,16 @@ body {
     padding: 0;
     margin: 0;
     background-color: #fff;
+    display: flex;
+    flex-flow: column wrap;
   }
 a{
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   text-decoration: none;
+  border-left: 2px solid #e13cb0;
+  padding-left: 10px;
 }
 a:link {
   color: #0bd3d3;
@@ -22,7 +26,7 @@ a:hover{
   color: #e13cb0;
 } 
 a:visited {
-  color: 	#000000;
+  color: 	#302f83;
 }
 #main {
     display: flex;
@@ -30,7 +34,7 @@ a:visited {
     margin: 5em 5em;
     justify-content: center;
 }
-header nav ul li{
+.nav nav ul li{
   display: flex;
   float: right;
   padding: .5em;
@@ -39,6 +43,7 @@ h1 {
   text-align: center;
   font-family: 'Libre Barcode 128 Text', cursive;
   color: #E13CB0;
+  vertical-align: middle;
 }
 aside {
   font-family: 'Roboto', sans-serif;
@@ -55,23 +60,29 @@ p #score {
 
 img {
     height: 400px;
-    width: 220px;
+    width: 260px;
 }
 footer {
     background-color: 	#343633;
     position: relative;
     height: 200px;
-    /* margin-top: -100px; */
     clear: both;
     opacity: .9;
   }
 #end nav ul li {
+  display: flex;
   padding: .5em;
   list-style: none;
 }
+
 #copyWright {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #38B5E6;
 }
+/* #vice {
+  position: absolute;
+  top: 10px;
+
+} */
