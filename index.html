@@ -2,43 +2,60 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tetris</title>
-    <link rel="icon" href="assets/Images/Tetris.png">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/CSS/CSS.css" />
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <script src="assests/JS/JS.js"></script>
+    <link rel="icon" href="./assets/Images/Tetris.png">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Roboto" rel="stylesheet">
 
 </head>
 
 <body>
+    
     <header>
-        <h1>Tetris</h1>
+        <h1>Tetris
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="mailto:mthaoqk@gmail.com">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <div class="main">
-            <canvas id="tetris" width="200" height="400"></canvas>
-            <br>
-            Score : <div id="score">0</div>
+    <main id="main">
+        <img src="./assets/Images/MercedesCortez-Artwork.png">
+        <canvas id="tetris" width="200" height="400"></canvas>
+        <img src="./assets/Images/ViceCityNight.png">
+    </main>
 
+    <aside>
+        <p>Score : <div id="score">0</div>
+        </p>
+    </aside>
+
+    <footer id="footer">
+        <div id="end">
+            <nav>
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="mailto:mthaoqk@gmail.com">Contact</a></li>
+                </ul>
+            </nav>
+            <p id="copyWright">&copy2019</p>
         </div>
-
-    </div>
-
-        <img id="vcNights" src="./assets/Images/ViceCityNight.png" />
-
-
-    <footer>
-        <p>Contact</p>
     </footer>
+
+
 
 
 
 
     <script src="assets/JavaScript/tetrominoes.js"></script>
     <script src="assets/JavaScript/tetris.js"></script>
-</body>
+
 
 </html>
